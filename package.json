@@ -1,0 +1,30 @@
+{
+  "name": "sanbercode-tugas6",
+  "version": "1.0.0",
+  "description": "ui automation with wdio",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardhyaregita/sanbercode-tugas6.git"
+  },
+  "author": "ardhya regita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ardhyaregita/sanbercode-tugas6/issues"
+  },
+  "homepage": "https://github.com/ardhyaregita/sanbercode-tugas6#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.14",
+    "@babel/register": "^7.22.5",
+    "@wdio/cli": "^8.16.2",
+    "@wdio/local-runner": "^8.16.2",
+    "@wdio/mocha-framework": "^8.16.0",
+    "@wdio/spec-reporter": "^8.15.10",
+    "chromedriver": "116.0.0",
+    "wdio-chromedriver-service": "^8.0.0"
+  }
+}
